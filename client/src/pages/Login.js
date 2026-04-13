@@ -23,8 +23,8 @@ export function Login() {
     try {
       const endpoint =
         mode === "signup"
-          ? "http://localhost:5000/auth/signup"
-          : "http://localhost:5000/auth/login";
+          ? "https://careercraft-ai-m938.onrender.com/auth/signup"
+          : "https://careercraft-ai-m938.onrender.com/auth/login";
 
       const res = await fetch(endpoint, {
         method: "POST",

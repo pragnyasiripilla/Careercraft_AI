@@ -70,7 +70,7 @@ export function Dashboard() {
   }, [navigate]);
 
   async function submitToBackend() {
-    const endpoint = "http://localhost:5000/recommend";
+    const endpoint = "https://careercraft-ai-m938.onrender.com/recommend";
     setApiLoading(true);
     setApiError("");
 

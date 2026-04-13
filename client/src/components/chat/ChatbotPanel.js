@@ -84,7 +84,7 @@ export function ChatbotPanel() {
     scrollToBottomSoon();
 
     try {
-      const endpoint = "http://localhost:5000/chat";
+      const endpoint = "https://careercraft-ai-m938.onrender.com/chat";
       const token = localStorage.getItem("cc_token");
 
       const res = await fetch(endpoint, {
